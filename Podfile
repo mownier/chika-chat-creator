@@ -5,13 +5,17 @@ platform :ios, '11.0'
 use_frameworks!
 
 target 'ChikaChatCreator' do
+    pod 'ChikaSignIn'
+    
     pod 'ChikaFirebase/Auth:SignIn'
     pod 'ChikaFirebase/Auth:SignOut'
     pod 'ChikaFirebase/Writer:OnlinePresenceSwitcher'
     pod 'ChikaFirebase/Writer:OfflinePresenceSwitcher'
     
-    pod 'ChikaFirebase/Query:Contact'
+    pod 'ChikaContactList'
     pod 'ChikaFirebase/Writer:ChatCreator'
+    
+    pod 'ChikaUI'
 
     target 'ChikaChatCreatorTests' do
         inherit! :search_paths
