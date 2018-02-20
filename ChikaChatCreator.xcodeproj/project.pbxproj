@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2E47749DD70F44F1C592B928 /* Pods_ChikaChatCreatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F9EC9EEBAD400B539BC269 /* Pods_ChikaChatCreatorTests.framework */; };
+		48517BD22036C024003E46DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48517BD12036C024003E46DF /* GoogleService-Info.plist */; };
+		48976F482038148E003CB6CD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48976F472038148E003CB6CD /* Data.swift */; };
 		489EA4D82032751D001D6D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489EA4D72032751D001D6D35 /* AppDelegate.swift */; };
 		489EA4DA2032751D001D6D35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489EA4D92032751D001D6D35 /* ViewController.swift */; };
 		489EA4DD2032751D001D6D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489EA4DB2032751D001D6D35 /* Main.storyboard */; };
 		489EA4DF2032751D001D6D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489EA4DE2032751D001D6D35 /* Assets.xcassets */; };
 		489EA4E22032751D001D6D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489EA4E02032751D001D6D35 /* LaunchScreen.storyboard */; };
 		489EA4ED2032751D001D6D35 /* ChikaChatCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489EA4EC2032751D001D6D35 /* ChikaChatCreatorTests.swift */; };
+		489EA4F920327656001D6D35 /* ChatCreator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489EA4F820327656001D6D35 /* ChatCreator.storyboard */; };
+		489EA4FB20327673001D6D35 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489EA4FA20327673001D6D35 /* Scene.swift */; };
+		489EA4FD2032769F001D6D35 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489EA4FC2032769F001D6D35 /* Factory.swift */; };
+		48C111DC20386DAA00C44EEE /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C111DB20386DAA00C44EEE /* Header.swift */; };
+		48C111E02038848600C44EEE /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C111DF2038848600C44EEE /* Header.xib */; };
 		6D9F27A3CB2C9DAEA1D8F371 /* Pods_ChikaChatCreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B33F670AF402B6CD9D1557A /* Pods_ChikaChatCreator.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		41B166786670CB3657660315 /* Pods-ChikaChatCreatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChikaChatCreatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChikaChatCreatorTests/Pods-ChikaChatCreatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		48517BD12036C024003E46DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../ChikaFirebaseDemo/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48976F472038148E003CB6CD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		489EA4D42032751D001D6D35 /* ChikaChatCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChikaChatCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489EA4D72032751D001D6D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		489EA4D92032751D001D6D35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +48,11 @@
 		489EA4E82032751D001D6D35 /* ChikaChatCreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChikaChatCreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489EA4EC2032751D001D6D35 /* ChikaChatCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChikaChatCreatorTests.swift; sourceTree = "<group>"; };
 		489EA4EE2032751D001D6D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489EA4F820327656001D6D35 /* ChatCreator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatCreator.storyboard; sourceTree = "<group>"; };
+		489EA4FA20327673001D6D35 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		489EA4FC2032769F001D6D35 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		48C111DB20386DAA00C44EEE /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		48C111DF2038848600C44EEE /* Header.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
 		60AAF7000E849618F6C9C4E9 /* Pods-ChikaChatCreatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChikaChatCreatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChikaChatCreatorTests/Pods-ChikaChatCreatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		88F9EC9EEBAD400B539BC269 /* Pods_ChikaChatCreatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChikaChatCreatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B33F670AF402B6CD9D1557A /* Pods_ChikaChatCreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChikaChatCreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +123,7 @@
 		489EA4D62032751D001D6D35 /* ChikaChatCreator */ = {
 			isa = PBXGroup;
 			children = (
+				48517BD12036C024003E46DF /* GoogleService-Info.plist */,
 				489EA4E32032751D001D6D35 /* Info.plist */,
 				489EA4D72032751D001D6D35 /* AppDelegate.swift */,
 				489EA4D92032751D001D6D35 /* ViewController.swift */,
@@ -132,6 +147,12 @@
 		489EA4F720327531001D6D35 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				489EA4F820327656001D6D35 /* ChatCreator.storyboard */,
+				48976F472038148E003CB6CD /* Data.swift */,
+				489EA4FC2032769F001D6D35 /* Factory.swift */,
+				48C111DB20386DAA00C44EEE /* Header.swift */,
+				489EA4FA20327673001D6D35 /* Scene.swift */,
+				48C111DF2038848600C44EEE /* Header.xib */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -226,7 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				489EA4E22032751D001D6D35 /* LaunchScreen.storyboard in Resources */,
+				489EA4F920327656001D6D35 /* ChatCreator.storyboard in Resources */,
+				48517BD22036C024003E46DF /* GoogleService-Info.plist in Resources */,
 				489EA4DF2032751D001D6D35 /* Assets.xcassets in Resources */,
+				48C111E02038848600C44EEE /* Header.xib in Resources */,
 				489EA4DD2032751D001D6D35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,9 +271,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChikaChatCreator/Pods-ChikaChatCreator-resources.sh",
+				"${PODS_ROOT}/ChikaAssets/ChikaAssets/Source/ChikaAssets.xcassets",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -314,20 +341,28 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ChikaChatCreator/Pods-ChikaChatCreator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChikaContactList/ChikaContactList.framework",
 				"${BUILT_PRODUCTS_DIR}/ChikaCore/ChikaCore.framework",
 				"${BUILT_PRODUCTS_DIR}/ChikaFirebase/ChikaFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/ChikaSignIn/ChikaSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/ChikaUI/ChikaUI.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCommunity/FirebaseCommunity.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChikaContactList.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChikaCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChikaFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChikaSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChikaUI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCommunity.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,8 +392,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489EA4FD2032769F001D6D35 /* Factory.swift in Sources */,
+				48976F482038148E003CB6CD /* Data.swift in Sources */,
 				489EA4DA2032751D001D6D35 /* ViewController.swift in Sources */,
 				489EA4D82032751D001D6D35 /* AppDelegate.swift in Sources */,
+				48C111DC20386DAA00C44EEE /* Header.swift in Sources */,
+				489EA4FB20327673001D6D35 /* Scene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
