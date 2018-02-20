@@ -44,6 +44,7 @@ public final class Scene: UIViewController {
         addChildViewController(carousel)
         carousel.didMove(toParentViewController: self)
         
+        header.titleInput.delegate = self
         contactListScene.setHeaderView(header)
     }
     
