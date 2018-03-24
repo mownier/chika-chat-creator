@@ -12,18 +12,11 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="PMG-by-VGG" customClass="Header" customModule="ChikaChatCreator" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="268"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="196"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="hFX-Ml-9ln">
-                    <rect key="frame" x="155.5" y="8" width="64" height="64"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="64" id="yph-to-Plw"/>
-                        <constraint firstAttribute="height" constant="64" id="z9V-4R-Iy8"/>
-                    </constraints>
-                </imageView>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="New Chat" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lo1-42-opi">
-                    <rect key="frame" x="8" y="80" width="359" height="52"/>
+                    <rect key="frame" x="8" y="8" width="359" height="52"/>
                     <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="52" id="iLr-4u-2gF"/>
@@ -33,7 +26,7 @@
                     <textInputTraits key="textInputTraits" returnKeyType="done"/>
                 </textField>
                 <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLl-cb-hWk">
-                    <rect key="frame" x="0.0" y="140" width="375" height="128"/>
+                    <rect key="frame" x="0.0" y="68" width="375" height="128"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="128" id="2P7-8I-r7Y"/>
                     </constraints>
@@ -42,24 +35,19 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="Fq3-Js-IIv" firstAttribute="trailing" secondItem="lo1-42-opi" secondAttribute="trailing" constant="8" id="24B-WX-YQW"/>
-                <constraint firstItem="hFX-Ml-9ln" firstAttribute="top" secondItem="Fq3-Js-IIv" secondAttribute="top" constant="8" id="3uJ-CL-cMw"/>
+                <constraint firstItem="lo1-42-opi" firstAttribute="top" secondItem="Fq3-Js-IIv" secondAttribute="top" constant="8" id="BiN-nV-8R1"/>
                 <constraint firstItem="bLl-cb-hWk" firstAttribute="trailing" secondItem="Fq3-Js-IIv" secondAttribute="trailing" id="GPs-yx-V55"/>
-                <constraint firstItem="lo1-42-opi" firstAttribute="top" secondItem="hFX-Ml-9ln" secondAttribute="bottom" constant="8" id="HbH-yd-LhT"/>
                 <constraint firstItem="bLl-cb-hWk" firstAttribute="top" secondItem="lo1-42-opi" secondAttribute="bottom" constant="8" id="Y8T-Uq-kxT"/>
                 <constraint firstItem="lo1-42-opi" firstAttribute="leading" secondItem="Fq3-Js-IIv" secondAttribute="leading" constant="8" id="c92-wT-qVB"/>
-                <constraint firstItem="hFX-Ml-9ln" firstAttribute="centerX" secondItem="PMG-by-VGG" secondAttribute="centerX" id="hah-HT-GEz"/>
                 <constraint firstItem="bLl-cb-hWk" firstAttribute="leading" secondItem="Fq3-Js-IIv" secondAttribute="leading" id="o4y-Tr-KGa"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="Fq3-Js-IIv"/>
             <connections>
-                <outlet property="avatarView" destination="hFX-Ml-9ln" id="Nge-aC-qc7"/>
                 <outlet property="containerView" destination="bLl-cb-hWk" id="aVh-vu-fuj"/>
                 <outlet property="titleInput" destination="lo1-42-opi" id="LnK-fA-zz8"/>
             </connections>
+            <point key="canvasLocation" x="-162" y="17"/>
         </view>
     </objects>
-    <resources>
-        <image name="avatar" width="64" height="64"/>
-    </resources>
 </document>

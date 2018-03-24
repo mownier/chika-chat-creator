@@ -10,22 +10,11 @@ import UIKit
 
 class Header: UIView {
 
-    @IBOutlet weak var avatarView: UIImageView!
     @IBOutlet weak var titleInput: UITextField!
     @IBOutlet weak var containerView: UIView!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-        avatarView.layer.borderColor = UIColor.lightGray.withAlphaComponent(0.5).cgColor
-        avatarView.layer.borderWidth = 1
-        avatarView.layer.masksToBounds = true
-    }
-    
     override func layoutSubviews() {
         super.layoutSubviews()
-        
-        avatarView.layer.cornerRadius = min(avatarView.bounds.width, avatarView.bounds.height) / 2
         
         containerView.subviews.forEach { subview in
             subview.frame = containerView.bounds
